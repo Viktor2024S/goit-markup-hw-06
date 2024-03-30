@@ -230,7 +230,9 @@ a::after {
 /* ===========MAIN============== */
 /* ===========2-FEATURES============== */
 .features {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .feature-title {
