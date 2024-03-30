@@ -255,7 +255,8 @@ a::after {
 .features-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  /* gap: 24px; */
+  gap: 72px;
 }
 
 .features-item {
