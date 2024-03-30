@@ -297,7 +297,9 @@ a::after {
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
 .team {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  /* padding-top: 0;
+  padding-bottom: 0; */
   background-color: #f4f4fd;
 }
 
