@@ -55,7 +55,7 @@ ol {
   /* width: 1158px; */
   /* width: 100%; */
   width: 320px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
 }
 
@@ -263,7 +263,7 @@ a::after {
 .features-item {
   /* width: calc((100% - 72px) / 4); */
   width: 100%;
-  /* padding: 0 16px; */
+  padding: 0 16px;
 }
 
 .features-item-icon {
@@ -841,4 +841,7 @@ img {
 
 .modal-input:focus + .modal-form-icon {
   fill: #4d5ae5;
+}
+
+@media screen and (min-width: 768px) {
 }
