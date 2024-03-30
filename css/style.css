@@ -232,7 +232,6 @@ a::after {
 /* ===========MAIN============== */
 /* ===========2-FEATURES============== */
 .features {
-  /* padding: 120px 0; */
   padding-top: 96px;
   padding-bottom: 96px;
 }
@@ -867,5 +866,8 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     width: 1158px;
+  }
+  .features-item {
+    width: calc((100% - 24px) / 2);
   }
 }
