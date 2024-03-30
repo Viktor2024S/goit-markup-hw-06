@@ -57,8 +57,7 @@ ol {
   /* width: 100%; */
   width: 320px;
   padding: 0 16px;
-  /* margin: 0 auto; */
-  align-items: center;
+  margin: 0 auto;
 }
 
 .header-container {
