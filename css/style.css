@@ -868,6 +868,6 @@ img {
     width: 1158px;
   }
   .features-item {
-    width: calc((100% - 24px) / 2);
+    width: calc((100% - 72px) / 4);
   }
 }
