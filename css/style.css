@@ -512,17 +512,16 @@ a::after {
 
   .footer-container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     /* new for mobile-size */
-
+    justify-content: center;
     flex-wrap: wrap;
-    /* width: 1158px; */
     gap: 72px;
   }
 }
 
 .footer-wrap {
-  margin-right: 120px;
+  /* margin-right: 120px; */
   /* new */
   display: flex;
   flex-wrap: wrap;
@@ -607,6 +606,7 @@ img {
 }
 .footer-form {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 .footer-input {
