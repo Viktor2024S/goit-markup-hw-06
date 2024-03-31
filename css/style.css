@@ -881,11 +881,27 @@ img {
 @media screen and (min-width: 768px) {
   /*  = = = = CONTAINER = = = = */
   .container {
-    width: 736px;
+    /* width: 736px; */
     /*  Yulia variant max-width: 768px */
     /* max-width: 768px; */
-
+    width: 768px;
   }
+  .header-menu-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .open-menu-btn {
+    display: none;
+  }
+  .header-contacts {
+    display: block;
+  }
+
+  .header-logo {
+    margin-right: 120px;
+  }
+  /*  */
   .features {
     padding: 96px 0;
   }
