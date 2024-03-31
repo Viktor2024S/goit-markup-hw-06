@@ -79,11 +79,13 @@ ol {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding: 17px 0;
 }
 
 .header-menu-list {
-  display: flex;
-  gap: 40px;
+  /* display: flex; */
+  /* gap: 40px;   */
+  display: none;
 }
 
 .header-menu-item {
@@ -120,14 +122,28 @@ ol {
   width: 100%;
 }
 
-a:hover,
+/* a:hover,
 a:focus {
   color: #404bbf;
+} */
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: #404bbf;
+}
+
+.open-menu-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 
 .header-contacts {
   font-style: normal;
   margin-left: auto;
+  display: none;
 }
 
 .header-contact-list {
@@ -865,9 +881,9 @@ img {
 @media screen and (min-width: 768px) {
   /*  = = = = CONTAINER = = = = */
   .container {
-    /* width: 736px; */
-    /*  Yulia variant 768px */
-    max-width: 768px;
+    width: 736px;
+    /*  Yulia variant max-width: 768px */
+    /* max-width: 768px; */
   }
   .features {
     padding: 96px 0;
@@ -905,8 +921,9 @@ img {
 /* ================= PC ===================*/
 @media screen and (min-width: 1158px) {
   .container {
-    /* width: 1158px; */
-    max-width: 1158px;
+    width: 1158px;
+    /* max-width: 1158px; */
+    padding: 0 15px;
   }
   .features {
     padding: 120px 0;
