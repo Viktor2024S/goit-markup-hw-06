@@ -180,6 +180,17 @@ a::after {
   max-width: 1440px;
   margin: 0 auto;
 }
+@media and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/background-mobile-2x.jpg);
+  }
+}
 
 /* Break lines */
 /* .line-break {
@@ -496,16 +507,16 @@ a::after {
   background-color: #2e2f42;
   /* padding: 100px 0; */
   padding: 96px 0;
-}
 
-.footer-container {
-  display: flex;
-  align-items: baseline;
-  /* new for mobile-size */
+  .footer-container {
+    display: flex;
+    align-items: baseline;
+    /* new for mobile-size */
 
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 72px;
+    flex-wrap: wrap;
+    /* width: 1158px; */
+    gap: 72px;
+  }
 }
 
 .footer-wrap {
@@ -994,6 +1005,17 @@ img {
   .footer-wrap {
     margin-right: 24px;
   }
+  @media and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-tablet-2x.jpg);
+    }
+  }
 }
 
 /* ================= PC - (1158px)===================*/
@@ -1056,5 +1078,17 @@ img {
 
   .footer {
     padding: 100px 0;
+  }
+
+  @media and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/background-pc-2x.jpg);
+    }
   }
 }
