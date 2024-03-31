@@ -258,10 +258,12 @@ a::after {
 
 .feature-title {
   margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -288,7 +290,8 @@ a::after {
 }
 
 .features-item-icon {
-  display: flex;
+  display: none;
+  /* display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #8e8f99;
@@ -296,7 +299,7 @@ a::after {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
-  background-color: #f4f4fd;
+  background-color: #f4f4fd; */
 }
 
 .features-item-title {
@@ -991,6 +994,26 @@ img {
   .team-list {
     gap: 64px 24px;
   }
+  .feature-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: left;
+  }
+
+  .features-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+  }
 
   .portfolio {
     padding-top: 96 px 0;
@@ -1057,6 +1080,15 @@ img {
   }
   .features-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .feature-title {
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 
   .team {
