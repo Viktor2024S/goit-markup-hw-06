@@ -865,8 +865,8 @@ img {
   /* == .header-contact-list =>
     display: block => else only one row?!!*/
   /* .header-contact-list {
-    display: block; */
-  }
+    display: block;
+  } */
 
   /* ======== */
   /* == Moved from line 100 === */
@@ -976,6 +976,21 @@ img {
     /* max-width: 1158px; */
     padding: 0 15px;
   }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-contact-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+  .header-contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /*  */
   .features {
     padding: 120px 0;
   }
