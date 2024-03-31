@@ -890,6 +890,11 @@ img {
     display: flex;
     gap: 40px;
   }
+  /*  .header-contact-list =>
+    display: block => else only one row?!!*/
+  .header-contact-list {
+    display: block;
+  }
 
   .open-menu-btn {
     display: none;
