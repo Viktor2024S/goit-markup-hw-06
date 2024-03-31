@@ -63,6 +63,7 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation {
@@ -78,7 +79,6 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
   padding: 17px 0;
 }
 
@@ -884,6 +884,7 @@ img {
     width: 736px;
     /*  Yulia variant max-width: 768px */
     /* max-width: 768px; */
+
   }
   .features {
     padding: 96px 0;
