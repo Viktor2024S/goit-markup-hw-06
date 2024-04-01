@@ -148,9 +148,17 @@ a::after {
   position: fixed;
   top: 0;
   /* background-color: #fcfcfc; */
+  /* visibility: hidden;
+  opacity: 0;
+  pointer-events: none; */
+
   width: 100vw;
   height: 100vh;
   padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-close-btn {
@@ -176,8 +184,11 @@ a::after {
 }
 .mobile-contact-list {
   display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 24px;
   /* temp */
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 .mobile-contact-item {
 }
