@@ -57,8 +57,6 @@ img {
 }
 
 .container {
-  /* width: 1158px; */
-  /* width: 100%; */
   min-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
@@ -87,8 +85,6 @@ img {
 }
 
 .header-menu-list {
-  /* display: flex; */
-  /* gap: 40px;   */
   display: none;
 }
 
@@ -100,9 +96,7 @@ img {
   color: #2e2f42;
   display: block;
 }
-/* ======== */
-/* Moved to media 786px */
-/* ======== */
+
 .open-menu-btn {
   padding: 0;
   line-height: 0;
@@ -130,23 +124,6 @@ img {
   color: #434455;
 }
 
-/* ======== */
-/* Moved to media 786px */
-/* ======== */
-/* .header-contact-link {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.header-contact-link:hover,
-.header-contact-link:focus {
-  color: #404bbf;
-} */
-
 .link-span {
   font-weight: 700;
   font-size: 18px;
@@ -169,8 +146,6 @@ a::after {
 /* ===========MAIN============== */
 /* ===========1-HERO============== */
 .hero {
-  /* padding-top: 188px;
-  padding-bottom: 292px; */
   padding: 72px 0 200px 0;
   text-align: center;
   background-image: linear-gradient(
@@ -196,21 +171,7 @@ a::after {
   }
 }
 
-/* Break lines */
-/* .line-break {
-  white-space: pre-line;
-}
-.text::after {
-  content: "\A";
-  white-space: pre;
-  display: block;
-} */
-/*  */
-
 .hero-title {
-  /* font-size: 56px; */
-  /* line-height: 1.07;   */
-  /* margin: 0 auto 48px; */
   display: block;
   font-weight: 700;
   font-size: 36px;
@@ -221,7 +182,6 @@ a::after {
   max-width: 496px;
   text-align: center;
   text-transform: capitalize;
-
   margin: 0 auto 72px;
   width: 216px;
 }
@@ -259,7 +219,6 @@ a::after {
 /* ===========2-FEATURES============== */
 .features {
   padding-top: 96px;
-  /* padding-bottom: 96px; */
 }
 
 .feature-title {
@@ -285,27 +244,15 @@ a::after {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  /* ??? */
-  /* gap: 72px; */
 }
 
 .features-item {
-  /* width: calc((100% - 72px) / 4); */
   width: 100%;
   padding: 0 16px;
 }
 
 .features-item-icon {
   display: none;
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: #f4f4fd; */
 }
 
 .features-item-title {
@@ -327,9 +274,6 @@ a::after {
 /* ===========MAIN============== */
 /* ===========3-TEAM============== */
 .team {
-  /* padding: 120px 0; */
-  /* padding-top: 0;
-  padding-bottom: 0; */
   background-color: #f4f4fd;
 }
 
@@ -351,7 +295,6 @@ a::after {
 }
 
 .team-item {
-  /* width: calc((100% - 3 * 24px) / 4); */
   width: 100%;
   border-radius: 0px 0px 4px 4px;
   background-color: #ffffff;
@@ -360,7 +303,9 @@ a::after {
 }
 
 .team-item img {
-  width: 100%;
+  /* To prevent oversized pictures */
+  /* width: 100%; */
+  margin: 0 auto;
   border-radius: 4px;
 }
 
