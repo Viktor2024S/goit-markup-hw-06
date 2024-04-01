@@ -147,7 +147,7 @@ a::after {
 .mobile-menu {
   position: fixed;
   top: 0;
-  background-color: #fcfcfc;
+  /* background-color: #fcfcfc; */
   width: 100vw;
   height: 100vh;
   padding: 24px;
@@ -156,13 +156,21 @@ a::after {
 .menu-close-btn {
   display: block;
   margin-left: auto;
+  margin-bottom: 24px;
 }
 
 .mobile-menu-list {
 }
-.mobile-menu-item {
+.mobile-menu-item:not(:last-child) {
+  margin-bottom: 40px;
 }
 .mobile-menu-link {
+  /*  */
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .curent {
 }
