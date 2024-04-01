@@ -97,7 +97,7 @@ img {
   display: block;
 }
 
-.open-menu-btn {
+.menu-open-btn {
   padding: 0;
   line-height: 0;
   background-color: transparent;
@@ -877,7 +877,7 @@ a::after {
     color: #404bbf;
   }
 
-  .open-menu-btn {
+  .menu-open-btn {
     display: none;
   }
 
