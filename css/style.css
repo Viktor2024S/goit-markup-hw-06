@@ -97,14 +97,6 @@ img {
   display: block;
 }
 
-.menu-open-btn {
-  padding: 0;
-  line-height: 0;
-  background-color: transparent;
-  cursor: pointer;
-  border: none;
-}
-
 .header-contacts {
   font-style: normal;
   margin-left: auto;
@@ -141,6 +133,38 @@ a::after {
   bottom: -1px;
   border-radius: 2px;
   height: 4px;
+}
+
+.menu-open-btn {
+  padding: 0;
+  line-height: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+/*  */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  background-color: #fcfcfc;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mobile-menu-list {
+}
+.mobile-menu-item {
+}
+.mobile-menu-link {
+}
+.curent {
+}
+.mobile-contact-list {
+}
+.mobile-contact-item {
+}
+.mobile-contact-link {
 }
 
 /* ===========MAIN============== */
