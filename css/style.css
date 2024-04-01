@@ -150,6 +150,12 @@ a::after {
   background-color: #fcfcfc;
   width: 100vw;
   height: 100vh;
+  padding: 24px;
+}
+
+.menu-close-btn {
+  display: block;
+  margin-left: auto;
 }
 
 .mobile-menu-list {
