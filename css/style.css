@@ -147,18 +147,25 @@ a::after {
 .mobile-menu {
   position: fixed;
   top: 0;
-  /* background-color: #fcfcfc; */
-  /* visibility: hidden;
-  opacity: 0;
-  pointer-events: none; */
+  background-color: #fcfcfc;
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 24px;
 
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  /* visibility: hidden;
+  opacity: 0;
+  pointer-events: none; */
+}
+
+.mobile-menu.is-open {
+  /* visibility: visible;
+  opacity: 1;
+  pointer-events: auto; */
 }
 
 .menu-close-btn {
@@ -180,8 +187,7 @@ a::after {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.curent {
-}
+
 .mobile-contact-list {
   display: flex;
   flex-direction: column;
@@ -1080,6 +1086,13 @@ a::after {
         url(../images/background-tablet-2x.jpg);
     }
   }
+
+  /*  */
+
+  .mobile-menu {
+    visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 /* ================= PC - (1158px)===================*/
