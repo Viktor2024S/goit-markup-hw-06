@@ -159,7 +159,7 @@ a::after {
   max-width: 1440px;
   margin: 0 auto;
 }
-@media and (min-device-pixel-ratio: 2),
+@media screen and (webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero {
@@ -183,7 +183,7 @@ a::after {
   text-align: center;
   text-transform: capitalize;
   margin: 0 auto 72px;
-  width: 216px;
+  width: 220px;
 }
 
 .hero-btn {
@@ -376,6 +376,10 @@ a::after {
   padding: 96px 0;
 }
 
+/* .portfolio-container {
+  margin: 0 auto;
+} */
+
 .portfolio-wrap {
   position: relative;
   overflow: hidden;
@@ -506,14 +510,14 @@ a::after {
   margin-bottom: 16px;
   height: 100%;
   border-radius: 50%;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-link {
-}
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /*   ===  or (1) === */
+  display: block;
+  text-align: center;
+} /*   ===  or (2) === */
+/* display: flex;
+  justify-content: center; */
 
 .footer-item-link {
   display: flex;
@@ -756,6 +760,7 @@ a::after {
 .modal-checkbox {
   margin-bottom: 24px;
 }
+
 .modal-label-checkbox {
   font-weight: 400;
   font-size: 12px;
@@ -817,9 +822,6 @@ a::after {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   border: none;
-}
-
-.modal-icon {
 }
 
 .modal-form-icon {
@@ -966,7 +968,7 @@ a::after {
   }
 
   .portfolio {
-    padding-top: 96 px 0;
+    padding-top: 96px 0;
   }
   .portfolio-list {
     gap: 72px 24px;
@@ -981,9 +983,9 @@ a::after {
     align-items: baseline;
   }
   .footer-wrap {
-    margin-right: 24px;
     /* 31.03 */
     /* display: flex; */
+    margin-right: 108px;
     flex-wrap: wrap;
     flex-direction: column;
   }
@@ -995,7 +997,7 @@ a::after {
     margin-right: 108px;
   }
 
-  @media and (min-device-pixel-ratio: 2),
+  @media screen and (webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
@@ -1079,7 +1081,12 @@ a::after {
     padding: 100px 0;
   }
 
-  @media and (min-device-pixel-ratio: 2),
+  .footer-wrap {
+    /* 31.03 */
+    margin-right: 156px;
+  }
+
+  @media screen and (webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
