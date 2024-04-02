@@ -162,9 +162,9 @@ a::after {
 }
 
 .mobile-menu.is-open {
-  opacity: 1;
+  /* opacity: 1;
   visibility: visible;
-  pointer-events: auto;
+  pointer-events: auto; */
 }
 .menu-close-btn {
   display: block;
@@ -926,6 +926,11 @@ a::after {
     display: block;
   } */
 
+  .mobile-menu {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
   .header-menu-link {
     color: #2e2f42;
     padding: 24px 0;
