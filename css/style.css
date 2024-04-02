@@ -144,29 +144,55 @@ a::after {
 }
 
 /*  */
-.mobile-menu {
+.mobile-menu-container {
   position: fixed;
   top: 0;
-  background-color: #fcfcfc;
-
+  left: 0;
   width: 100%;
   height: 100%;
-  padding: 24px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  background-color: #fcfcfc;
 
   /* visibility: hidden;
   opacity: 0;
   pointer-events: none; */
 }
 
-.mobile-menu.is-open {
-  /* visibility: visible;
-  opacity: 1;
-  pointer-events: auto; */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  /* background-color: #fcfcfc; */
+
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  /* width: 100vw;
+  height: 100vh;
+  padding: 24px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+
+  /* visibility: hidden;
+  opacity: 0;
+  pointer-events: none; */
 }
+
+.mobile-menu-container.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* .mobile-menu.is-open {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+} */
 
 .menu-close-btn {
   display: block;
@@ -1089,12 +1115,18 @@ a::after {
 
   /*  */
 
-  .mobile-menu {
+  /* .mobile-menu {
     visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
+    opacity: 0;
+    pointer-events: none;
+  } */
 
+  .mobile-menu-container {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 /* ================= PC - (1158px)===================*/
 @media screen and (min-width: 1158px) {
   .container {
