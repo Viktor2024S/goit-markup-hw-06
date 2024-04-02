@@ -183,6 +183,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-bottom: 48px;
 }
 
 .mobile-contact-link {
