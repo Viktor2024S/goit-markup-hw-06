@@ -386,7 +386,7 @@ img {
   /* To prevent oversized pictures */
   /* width: 100%; */
   margin: 0 auto;
-  border-radius: 0 0 4px 4px;
+  /* border-radius: 0 0 4px 4px; */
 }
 
 .team-member {
