@@ -1141,8 +1141,19 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     align-items: baseline;
+    gap: unset;
   }
-  .footer-form-wrap {
+
+  .footer-link {
+    text-align: left;
+  }
+
+  .footer-wrap {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: auto;
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
