@@ -149,8 +149,10 @@ img {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
+
+  z-index: 9;
 }
-/* ??? */
+
 .mobile-menu.is-open {
   opacity: 1;
   visibility: visible;
@@ -162,8 +164,6 @@ img {
   margin-bottom: 24px;
 }
 
-.mobile-menu-list {
-}
 .mobile-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
