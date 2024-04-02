@@ -1115,14 +1115,11 @@ img {
     padding: 0 15px;
   }
 
-  /* ?????????????????? */
-  /*  */
   .mobile-menu {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
   }
-  /*  */
 
   .header-logo {
     margin-right: 76px;
