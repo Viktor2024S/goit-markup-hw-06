@@ -196,13 +196,6 @@ img {
   stroke: #fff;
 }
 
-/* .menu-icon-close {
-  fill: transparent;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-} */
 .mobile-social {
   display: flex;
   justify-content: center;
@@ -523,14 +516,6 @@ img {
   gap: 72px 24px;
 }
 
-.footer-wrap {
-  /* margin-right: 120px; */
-  /* new */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
-}
-
 .footer-social-text {
   font-weight: 500;
   font-size: 16px;
@@ -559,12 +544,9 @@ img {
   border-radius: 50%;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*   === (1) === */
   display: block;
   text-align: center;
-} /*   ===  or (2) === */
-/* display: flex;
-  justify-content: center; */
+}
 
 .footer-item-link {
   display: flex;
@@ -586,6 +568,7 @@ img {
 .link-span-footer {
   color: #f4f4fd;
 }
+
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -594,7 +577,7 @@ img {
   text-align: center;
 }
 
-/* ===== SUBSCRIBE 1 =====*/
+/* ===== SUBSCRIBE =====*/
 .footer-text {
   margin-bottom: 16px;
   font-weight: 500;
@@ -610,6 +593,7 @@ img {
   gap: 24px;
   align-items: center;
 }
+
 .footer-input {
   width: 264px;
   height: 40px;
@@ -627,6 +611,7 @@ img {
 .footer-input:placeholder {
   color: #fff;
 }
+
 .footer-btn {
   border-radius: 4px;
   padding: 8px 24px;
@@ -983,9 +968,11 @@ img {
   .features {
     padding: 96px 0;
   }
+
   .features-list {
     gap: 72px 24px;
   }
+
   .features-item {
     width: calc((100% - 24px) / 2);
   }
@@ -993,6 +980,7 @@ img {
   .team-list {
     gap: 64px 24px;
   }
+
   .feature-title {
     font-weight: 700;
     font-size: 36px;
@@ -1017,9 +1005,11 @@ img {
   .portfolio {
     padding: 96px 0;
   }
+
   .portfolio-list {
     gap: 72px 24px;
   }
+
   .portfolio-item {
     width: calc((100% - 24px) / 2);
   }
@@ -1029,13 +1019,16 @@ img {
     align-items: baseline;
     padding-left: 108px;
   }
+
   .footer-wrap {
     flex-wrap: wrap;
     flex-direction: column;
   }
+
   .footer-text {
     text-align: left;
   }
+
   .footer-form {
     flex-direction: row;
     margin-right: 108px;
@@ -1125,9 +1118,11 @@ img {
   .portfolio {
     padding: 120px 0;
   }
+
   .portfolio-list {
     gap: 48px 24px;
   }
+
   .portfolio-item {
     width: calc((100% - 48px) / 3);
   }
@@ -1156,10 +1151,6 @@ img {
   .footer-form {
     margin-right: auto;
   }
-
-  /* .footer-form-wrap {
-    margin-right: auto;
-  } */
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
