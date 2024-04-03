@@ -162,6 +162,9 @@ img {
   display: block;
   margin-left: auto;
   margin-bottom: 24px;
+  border-width: 1px;
+  border-color: #2e2f42;
+  border-radius: 50%;
 }
 
 .mobile-menu-item:not(:last-child) {
