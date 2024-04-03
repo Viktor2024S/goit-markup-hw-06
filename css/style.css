@@ -1142,6 +1142,7 @@ img {
     flex-direction: row;
     align-items: baseline;
     gap: unset;
+    justify-content: space-between;
   }
 
   .footer-link {
@@ -1152,9 +1153,13 @@ img {
     margin-right: 120px;
   }
 
-  .footer-social {
+  .footer-form {
     margin-right: auto;
   }
+
+  /* .footer-form-wrap {
+    margin-right: auto;
+  } */
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
